@@ -28,7 +28,7 @@ class Navigation extends React.Component {
         return (
             <div  className={classes.block}>
                 <div className={classes.item_img}>
-                    <a href="/about"><img src={logo} alt="logotype"/></a>
+                    <NavLink to="/about"><img src={logo} alt="logotype"/></NavLink>
                 </div>
                 <div   className={classes.burger} onClick={(e) => this.handleClick(e)}    style={this.state.menuDisplay ?{ backgroundImage:`url(${crossIcon})` }:{ backgroundImage:`url(${butgerIcon})` }} > </div>
 
@@ -39,14 +39,14 @@ class Navigation extends React.Component {
                     <ul className={classes.ul_menu}>
                         <li  className={classes.li_menu}><NavLink to="/#" activeClassName={classes.active}>Home</NavLink></li>
                         <li className={classes.li_menu}><NavLink to="/about" activeClassName={classes.active}>About</NavLink></li>
-                        <li  className={`${classes.li_menu} ${classes.li_block}`}><a href="/#"> Service&#8195;&#709;</a>
+                        <li  className={`${classes.li_menu} ${classes.li_block}`}><NavLink to="/#"> Service&#8195;&#709;</NavLink>
                             <ul className={classes.ul_dropdoun}>
-                                <li className={classes.li_dropdoun}><a href="/development_IOS">ios app development</a> </li>
-                                <li className={classes.li_dropdoun}><a href="/development_android">android app development</a></li>
-                                <li className={classes.li_dropdoun}><a href="/development_website">website development</a></li>
-                                <li className={classes.li_dropdoun}><a href="#">unity 3D game development</a></li>
-                                <li className={classes.li_dropdoun}><a href="#">digital marketing service</a></li>
-                                <li className={classes.li_dropdoun}><a href="#">UI/UX design services</a></li>
+                                <li className={classes.li_dropdoun}><NavLink to="/development_IOS">ios app development</NavLink> </li>
+                                <li className={classes.li_dropdoun}><NavLink to="/development_android">android app development</NavLink></li>
+                                <li className={classes.li_dropdoun}><NavLink to="/development_website">website development</NavLink></li>
+                                <li className={classes.li_dropdoun}><NavLink to="#">unity 3D game development</NavLink></li>
+                                <li className={classes.li_dropdoun}><NavLink to="#">digital marketing service</NavLink></li>
+                                <li className={classes.li_dropdoun}><NavLink to="#">UI/UX design services</NavLink></li>
                             </ul>
 
                         </li>
@@ -55,8 +55,8 @@ class Navigation extends React.Component {
                         <li  className={classes.li_menu}><NavLink to ="/contact" activeClassName={classes.active}>Contact</NavLink></li>
                     </ul>
                     <div  className={classes.btn}>
-                        <a href="/contact"> <button className={classes.btn1}>get a free quote</button></a>
-                        <a href="tel:+917737791591"> <button className={classes.btn2}>call <big>&#128381;</big></button></a>
+                        <NavLink to="/contact"> <button className={classes.btn1}>get a free quote</button></NavLink>
+                        <NavLink to="tel:+917737791591"> <button className={classes.btn2}>call <big>&#128381;</big></button></NavLink>
                     </div>
 
                 </div>
