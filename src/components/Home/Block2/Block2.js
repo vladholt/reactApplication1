@@ -9,7 +9,7 @@ let Block2 = (props) => {
             <p>{props.h1}</p> <br/>
             <span className={s.span}><strong><NavLink className={s.link} to='/'>{props.link}</NavLink></strong>{props.span}</span>
             <br/>
-            <a href="/about"> <button className={s.btn}>about us</button></a>
+            <NavLink to="/about"> <button className={s.btn}>about us</button></NavLink>
         </div>
     );
 };

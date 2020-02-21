@@ -1,6 +1,7 @@
 
 import React from "react";
 import classes from './Block6.module.css';
+import {NavLink} from "react-router-dom";
 
 class Block6 extends React.Component {
     constructor(props) {
@@ -34,7 +35,7 @@ class Block6 extends React.Component {
                 </div>
             )}
             </div>
-            <a href="/portfolio"> <button className={classes.btn}>check out other project &#8594; </button></a>
+            <NavLink to="/portfolio"> <button className={classes.btn}>check out other project &#8594; </button></NavLink>
 
             </div>
 

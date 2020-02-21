@@ -7,7 +7,7 @@ import { bounceInUp } from 'react-animations';
 import { bounceInDown } from 'react-animations';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
-
+import {NavLink} from "react-router-dom";
 
 
 
@@ -30,7 +30,7 @@ let DevIos=(props) =>{
                     <span  className={classes.textInfo}><a href="#">SparkleAppz </a>  have experience of more than 10 years in making world’s leading brands go mobile by developing inspiring apps in Apple platform. Add boost to your business needs by using our expertise in <a
                         href="#"> iOS app development</a>  to build beautiful, <a href="#"> engaging</a>  and <a href="#"> seamless </a> app.</span>
                     <br/>
-                    <a href="/portfolio"> <button className={classes.btn}>Our Portfolio <b> &#8594;</b></button></a>
+                    <NavLink to="/portfolio"> <button className={classes.btn}>Our Portfolio <b> &#8594;</b></button></NavLink>
                 </div>
                 <div className={classes.item_img1}>
                     <img src={e.img} alt=""/>

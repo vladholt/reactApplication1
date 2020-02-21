@@ -34,7 +34,7 @@ const  About = (props) =>{
                             <p />  We focus to deliver our expertise to our
                                 clients within time and make sure that our solutions be aesthetic,
                                 technically functional, user-friendly and responsive.</span>
-                            <a href="/portfolio"> <button className={classes.btn}>Our Portfolio <b> &#8594;</b></button></a>
+                            <NavLink to="/portfolio"> <button className={classes.btn}>Our Portfolio <b> &#8594;</b></button></NavLink>
                         </div>
 
                         <div className={classes.item_img}>
