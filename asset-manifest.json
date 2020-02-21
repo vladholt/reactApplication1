@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/reactApplication1/static/css/main.24f298f8.chunk.css",
-    "main.js": "/reactApplication1/static/js/main.0ff43406.chunk.js",
-    "main.js.map": "/reactApplication1/static/js/main.0ff43406.chunk.js.map",
+    "main.js": "/reactApplication1/static/js/main.a6492d8b.chunk.js",
+    "main.js.map": "/reactApplication1/static/js/main.a6492d8b.chunk.js.map",
     "runtime-main.js": "/reactApplication1/static/js/runtime-main.fc9eea3b.js",
     "runtime-main.js.map": "/reactApplication1/static/js/runtime-main.fc9eea3b.js.map",
     "static/css/2.5bc09813.chunk.css": "/reactApplication1/static/css/2.5bc09813.chunk.css",
-    "static/js/2.59d50a1a.chunk.js": "/reactApplication1/static/js/2.59d50a1a.chunk.js",
-    "static/js/2.59d50a1a.chunk.js.map": "/reactApplication1/static/js/2.59d50a1a.chunk.js.map",
+    "static/js/2.4377e873.chunk.js": "/reactApplication1/static/js/2.4377e873.chunk.js",
+    "static/js/2.4377e873.chunk.js.map": "/reactApplication1/static/js/2.4377e873.chunk.js.map",
     "index.html": "/reactApplication1/index.html",
-    "precache-manifest.220b1d7775fbe3a887231aa6ad150791.js": "/reactApplication1/precache-manifest.220b1d7775fbe3a887231aa6ad150791.js",
+    "precache-manifest.56c201fe02b7e3cafd1f191ea0d89e43.js": "/reactApplication1/precache-manifest.56c201fe02b7e3cafd1f191ea0d89e43.js",
     "service-worker.js": "/reactApplication1/service-worker.js",
     "static/css/2.5bc09813.chunk.css.map": "/reactApplication1/static/css/2.5bc09813.chunk.css.map",
     "static/css/main.24f298f8.chunk.css.map": "/reactApplication1/static/css/main.24f298f8.chunk.css.map",
-    "static/js/2.59d50a1a.chunk.js.LICENSE": "/reactApplication1/static/js/2.59d50a1a.chunk.js.LICENSE",
+    "static/js/2.4377e873.chunk.js.LICENSE": "/reactApplication1/static/js/2.4377e873.chunk.js.LICENSE",
     "static/media/2.png": "/reactApplication1/static/media/2.67f1d491.png",
     "static/media/3.png": "/reactApplication1/static/media/3.14a0b27c.png",
     "static/media/Adult-Frames-Picture_inner.jpg": "/reactApplication1/static/media/Adult-Frames-Picture_inner.f202c3e6.jpg",
@@ -76,8 +76,8 @@
   "entrypoints": [
     "static/js/runtime-main.fc9eea3b.js",
     "static/css/2.5bc09813.chunk.css",
-    "static/js/2.59d50a1a.chunk.js",
+    "static/js/2.4377e873.chunk.js",
     "static/css/main.24f298f8.chunk.css",
-    "static/js/main.0ff43406.chunk.js"
+    "static/js/main.a6492d8b.chunk.js"
   ]
 }
