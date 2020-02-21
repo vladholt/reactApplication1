@@ -19,7 +19,7 @@ let quote = props.animation[0].quote;
             <div className={classes.block}>
                 <div className={classes.page}>
                     <h3>Web animation</h3>
-                    <a className={classes.a} href="#comment">Live a comment /</a><a className={classes.a} href="/blog">uncategorized</a>
+                    <NavLink className={classes.a} to="#comment">Live a comment /</NavLink><NavLink className={classes.a} to="/blog">uncategorized</NavLink>
                     <div className={classes.foto1}>
                         <img src={block3} alt="foto"/>
                     </div>

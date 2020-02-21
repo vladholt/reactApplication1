@@ -18,10 +18,10 @@ import {NavLink} from "react-router-dom";
 const LinkIcon = (props)=>{
   return(
       <div className={classes.item_icon}>
-          <NavLink to={props.address}>
+          <a href={props.address}>
               <img src={props.path} alt=""/>
               <span>{props.text}</span>
-          </NavLink>
+          </a>
       </div>
   )
 };

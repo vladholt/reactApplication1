@@ -41,7 +41,7 @@ class Block6 extends React.Component {
 
     );
     }
-};
+}
 export default Block6;
 
 

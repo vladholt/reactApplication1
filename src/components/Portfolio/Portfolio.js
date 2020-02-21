@@ -17,11 +17,11 @@ let PortfolioItem1 = () =>{
 
                 </span>
 
-                <a href="/contact">
+                <NavLink to="/contact">
                     <button className={classes.btn}>
                     contact us today <b> &#8594;</b>
                     </button>
-                </a>
+                </NavLink>
             </div>
             <div className={classes.item_img}>
             <img src={BannerHead} alt=""/>

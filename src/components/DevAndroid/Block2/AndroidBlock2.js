@@ -5,6 +5,7 @@ import { bounceInUp } from 'react-animations';
 import { bounceInDown } from 'react-animations';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
+import {NavLink} from "react-router-dom";
 
 
 
@@ -23,7 +24,7 @@ let AndroidBlock2 = (props)=>{
 Our developers know ways to future proof your app so that it keeps pace with the evolution of the <b> Android</b>  platform. We tend to create mark of our presence in android platforms.  </span>
             </div>
             <ScrollAnimation animateIn={BuonceApp}  animateOut={BuonceDown}>
-            <div className={classes.btnBlock2Div}> <a href="/portfolio"> <button className={classes.btnBlock2}>see our work </button></a> </div>
+            <div className={classes.btnBlock2Div}> <NavLink to="/portfolio"> <button className={classes.btnBlock2}>see our work </button></NavLink> </div>
             </ScrollAnimation>
         </div>
 

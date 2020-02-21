@@ -43,8 +43,6 @@ const App = (props) => {
                     <Route exact path='/'
                            render={ () => <Home arrHead={props.appState.homePage.arrHead} homeBlock2={props.appState.homePage.homeBlock2} homeBlock3={props.appState.homePage.homeBlock3}
 
-
-
                                homeBlock4={props.appState.homePage.homeBlock4}
                                homeBlock5={props.appState.homePage.homeBlock5}
                                homeBlock11={props.appState.homePage.homeBlock11}
@@ -63,7 +61,6 @@ const App = (props) => {
                                homeRanking = {props.appState.homePage.homeRanking}
                                homeGallery = {props.appState.homePage.homeGallery}
                                blockTeam = {props.appState.homePage.blockTeam}
-
                            />} />
                     <Route path='/portfolio'
                            render={ () => <Portfolio

@@ -3,6 +3,7 @@ import classes from './Blog.module.css'
 import BannerHead from "../../img/blog_img.png";
 import Section1 from "./Section1/Section1";
 import Section2 from "./Section2/Section2";
+import {NavLink} from "react-router-dom";
 
 let BlogItem1 = () =>{
     return(
@@ -18,7 +19,7 @@ let BlogItem1 = () =>{
                     will allow the company to deploy faster go to market solutions for its clients.We will
                     be pleased to see in our network, We always care of our customer, and never let our
                     customer worry about anything.</span>
-                <a href="/portfolio"><button className={classes.btn}>check out our portfolio </button> </a>
+                <NavLink to="/portfolio"><button className={classes.btn}>check out our portfolio </button> </NavLink>
             </div>
             <div className={classes.item_img}>
                 <img src={BannerHead} alt=""/>

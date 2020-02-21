@@ -5,6 +5,7 @@ import styled, { keyframes } from 'styled-components';
 import { bounceInUp } from 'react-animations';
 import { bounceInDown } from 'react-animations';
 import "animate.css/animate.min.css";
+import {NavLink} from "react-router-dom";
 
 
 const BuonceApp = styled.div`animation: 3s ${keyframes`${bounceInUp } `}`;
@@ -37,7 +38,7 @@ let AndroidBlock3 =(props) => {
 
             </div>
             <ScrollAnimation animateIn={BuonceApp}  animateOut={BuonceDown}>
-            <div className={classes.btnFigDiv}> <a href="/portfolio"> <button className={classes.btnFigure}>show more project </button></a> </div>
+            <div className={classes.btnFigDiv}> <NavLink to="/portfolio"> <button className={classes.btnFigure}>show more project </button></NavLink> </div>
             </ScrollAnimation>
         </div>
     );

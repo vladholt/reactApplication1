@@ -11,6 +11,7 @@ import {NavLink} from "react-router-dom";
 
 
 
+
 const BuonceApp = styled.div`animation: 3s ${keyframes`${bounceInUp } `}`;
 const BuonceDown = styled.div`animation: 3s ${keyframes`${bounceInDown} `}`;
 
@@ -27,8 +28,8 @@ let DevIos=(props) =>{
                 <div className={classes.item_text1}>
                     <span className={classes.h1}>ios app</span><br/>
                     <span className={classes.h1Small}>development</span><br/>
-                    <span  className={classes.textInfo}><a href="#">SparkleAppz </a>  have experience of more than 10 years in making world’s leading brands go mobile by developing inspiring apps in Apple platform. Add boost to your business needs by using our expertise in <a
-                        href="#"> iOS app development</a>  to build beautiful, <a href="#"> engaging</a>  and <a href="#"> seamless </a> app.</span>
+                    <span  className={classes.textInfo}><NavLink to="">SparkleAppz </NavLink>  have experience of more than 10 years in making world’s leading brands go mobile by developing inspiring apps in Apple platform. Add boost to your business needs by using our expertise in <NavLink
+                        to="#"> iOS app development</NavLink>  to build beautiful, <NavLink to="#"> engaging</NavLink>  and <NavLink to="#"> seamless </NavLink> app.</span>
                     <br/>
                     <NavLink to="/portfolio"> <button className={classes.btn}>Our Portfolio <b> &#8594;</b></button></NavLink>
                 </div>
@@ -49,7 +50,7 @@ let DevIos=(props) =>{
              </div>
 
             <ScrollAnimation animateIn={BuonceApp}  animateOut={BuonceDown}>
-            <div  className={classes.btnBlock2Div}> <a href="/portfolio"> <button  className={classes.btnBlock2}>see our work </button></a> </div>
+            <div  className={classes.btnBlock2Div}> <NavLink to="/portfolio"> <button  className={classes.btnBlock2}>see our work </button></NavLink> </div>
             </ScrollAnimation>
 
         </div>
@@ -59,10 +60,10 @@ let DevIos=(props) =>{
 
                 <div className={classes.block2Items}>
                 <h1 className={classes.h1Block3}>build an app for ios devices</h1>
-                <span className={classes.textBlock3}>Our talented  <a href="#">iOS app developers</a>  provide app development services by building <a
-                    href="#"> applications</a>  that would work equally well across all <a href="#"> Apple devices.</a> Our team believe in helping you in every step from solution <a
-                    href="#">design </a>  to delivery of the product. We also offer ongoing maintenance to keeps solutions healthy to deal with changing <a
-                    href="#">technical </a>  and <a href="#">business </a> environment. </span>
+                <span className={classes.textBlock3}>Our talented  <NavLink to="/development_android">iOS app developers</NavLink>  provide app development services by building <NavLink
+                    to="#"> applications</NavLink>  that would work equally well across all <NavLink to="/development_IOS"> Apple devices.</NavLink> Our team believe in helping you in every step from solution <NavLink
+                    to="#">design </NavLink>  to delivery of the product. We also offer ongoing maintenance to keeps solutions healthy to deal with changing <NavLink
+                    to="#">technical </NavLink>  and <NavLink to="#">business </NavLink> environment. </span>
                 <div className={classes.figureBlock3}>
                     <figure>
                         <img src={e.img1} alt="foto"/>
@@ -82,7 +83,7 @@ let DevIos=(props) =>{
 
                 </div>
                 <ScrollAnimation animateIn={BuonceApp}  animateOut={BuonceDown}>
-                <div  className={classes.btnFigDiv}> <a href="/portfolio"> <button className={classes.btnFigure}>show more project </button></a> </div>
+                <div  className={classes.btnFigDiv}> <NavLink to="/portfolio"> <button className={classes.btnFigure}>show more project </button></NavLink> </div>
                 </ScrollAnimation>
             </div>
 

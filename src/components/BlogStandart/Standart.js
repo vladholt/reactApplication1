@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import c from './Standart.module.css'
-import block3 from "../../img/blog03-free-img.jpg";
+//import block3 from "../../img/blog03-free-img.jpg";
 
 
 

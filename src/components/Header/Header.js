@@ -2,6 +2,7 @@ import React from 'react';
 import phone from '../../img/smallIcon/phone_icn.png';
 import email from '../../img/smallIcon/email_icn.png';
 import classes from './Header.module.css'
+//import {NavLink} from "react-router-dom";
 
 
 
